@@ -15,7 +15,6 @@
 }
 
 .extension-editor > .header {
-	height: 17.8%;
 	display: flex;
 	padding-top: 20px;
 	padding-bottom: 14px;
@@ -27,15 +26,11 @@
 
 .extension-editor > .header > .icon-container {
 	position: relative;
-	height: 100%;
-	width: 11.12%;
 }
 
 .extension-editor > .header > .icon-container .icon {
-	/* height: 128px;
-	width: 128px; */
-	height: 100%;
-	width: 100%;
+	height: 128px;
+	width: 128px;
 	object-fit: contain;
 }
 
@@ -59,7 +54,6 @@
 }
 
 .extension-editor > .header > .details {
-	height: 100%;
 	padding-left: 20px;
 	overflow: hidden;
 	user-select: text;
@@ -160,27 +154,13 @@
 	justify-content: flex-start;
 }
 
-.extension-editor
-	> .header
-	> .details
-	> .actions
-	> .monaco-action-bar
-	> .actions-container
-	> .action-item
-	> .action-label {
+.extension-editor > .header > .details > .actions > .monaco-action-bar > .actions-container > .action-item > .action-label {
 	font-weight: 600;
 	margin: 4px 8px 4px 0px;
 	padding: 1px 6px;
 }
 
-.extension-editor
-	> .header
-	> .details
-	> .actions
-	> .monaco-action-bar
-	> .actions-container
-	> .action-item
-	> .extension-action {
+.extension-editor > .header > .details > .actions > .monaco-action-bar > .actions-container > .action-item > .extension-action {
 	max-width: 300px;
 }
 
@@ -199,7 +179,7 @@
 }
 
 .extension-editor > .header > .details > .subtext-container > .subtext {
-	float: left;
+	float:left;
 	margin-top: 5px;
 	margin-right: 4px;
 }
@@ -351,11 +331,11 @@
 }
 
 .extension-editor .subcontent .monaco-list-row .content .unknown-extension > .error-marker {
-	background-color: #be1100;
+	background-color: #BE1100;
 	padding: 2px 4px;
 	font-weight: bold;
 	font-size: 11px;
-	color: #ccc;
+	color: #CCC;
 }
 
 .extension-editor .subcontent .monaco-list-row .unknown-extension > .message {
