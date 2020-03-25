@@ -16,8 +16,8 @@
 
 .extension-editor > .header {
 	display: flex;
-	padding-top: 20px;
-	padding-bottom: 14px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow: hidden;
@@ -29,8 +29,8 @@
 }
 
 .extension-editor > .header > .icon-container .icon {
-	height: 128px;
-	width: 128px;
+	height: 110px;
+	width: 110px;
 	object-fit: contain;
 }
 
@@ -67,15 +67,15 @@
 
 .extension-editor > .header > .details > .title > .name {
 	flex: 0;
-	font-size: 26px;
-	line-height: 30px;
+	font-size: 22px;
+	line-height: 25px;
 	font-weight: 600;
 	white-space: nowrap;
 }
 
 .extension-editor > .header > .details > .title > .identifier {
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 12px;
 	opacity: 0.6;
 	background: rgba(173, 173, 173, 0.31);
 	padding: 0px 4px;
@@ -107,9 +107,9 @@
 }
 
 .extension-editor > .header > .details > .subtitle {
-	padding-top: 6px;
+	margin-top: 5px;
 	white-space: nowrap;
-	height: 20px;
+	height: 15px;
 	line-height: 20px;
 }
 
@@ -136,14 +136,14 @@
 }
 
 .extension-editor > .header > .details > .description {
-	margin-top: 10px;
+	margin-top: 5px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
 
 .extension-editor > .header > .details > .actions {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .extension-editor > .header > .details > .actions > .monaco-action-bar {
@@ -154,13 +154,27 @@
 	justify-content: flex-start;
 }
 
-.extension-editor > .header > .details > .actions > .monaco-action-bar > .actions-container > .action-item > .action-label {
+.extension-editor
+	> .header
+	> .details
+	> .actions
+	> .monaco-action-bar
+	> .actions-container
+	> .action-item
+	> .action-label {
 	font-weight: 600;
 	margin: 4px 8px 4px 0px;
 	padding: 1px 6px;
 }
 
-.extension-editor > .header > .details > .actions > .monaco-action-bar > .actions-container > .action-item > .extension-action {
+.extension-editor
+	> .header
+	> .details
+	> .actions
+	> .monaco-action-bar
+	> .actions-container
+	> .action-item
+	> .extension-action {
 	max-width: 300px;
 }
 
@@ -179,7 +193,7 @@
 }
 
 .extension-editor > .header > .details > .subtext-container > .subtext {
-	float:left;
+	float: left;
 	margin-top: 5px;
 	margin-right: 4px;
 }
@@ -331,11 +345,11 @@
 }
 
 .extension-editor .subcontent .monaco-list-row .content .unknown-extension > .error-marker {
-	background-color: #BE1100;
+	background-color: #be1100;
 	padding: 2px 4px;
 	font-weight: bold;
 	font-size: 11px;
-	color: #CCC;
+	color: #ccc;
 }
 
 .extension-editor .subcontent .monaco-list-row .unknown-extension > .message {
